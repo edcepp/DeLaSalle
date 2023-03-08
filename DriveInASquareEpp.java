@@ -18,12 +18,12 @@ import com.qualcomm.robotcore.hardware.DcMotorEx;
 // ------------------------------------------------------------------------------
 public  class DriveInASquareEpp extends LinearOpMode
 {
-    double TARGET_DISTANCE    = 450;         // mm (about 18 inches)
+    double TARGET_DISTANCE    = 900;         // mm (about 18 inches)
     // This is a quess because the wheels may slip
     double DEGREES_90         = 125;         // mm wheel distance guess
     double MAX_MOTOR_VELOCITY = 600;         // mm / second
     double TARGET_VELOCITY    = MAX_MOTOR_VELOCITY / 4;
-    int    SQUARE_SIDES       =   2;
+    int    SQUARE_SIDES       =   4;
 
     DcMotorEx leftMotor;
     DcMotorEx rightMotor;
@@ -104,7 +104,7 @@ public  class DriveInASquareEpp extends LinearOpMode
         rightMotor.setVelocity(rightTicksPerSecond);
  
         // do nothing until each wheel has completed it mission
-        while (leftMotor.isBusy() || leftMotor.isBusy())
+        while (leftMotor.isBusy() || rightMotor.isBusy())  // fixed error
         {
             telemetry.addData("position  velocity ", 
                leftMotor.getCurrentPosition() + "   " + leftMotor.getVelocity());
