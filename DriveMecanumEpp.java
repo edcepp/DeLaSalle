@@ -87,7 +87,7 @@ public  class DriveMecanumEpp extends LinearOpMode
     }
 
     // ---------- powerUpMotors -----------------------------------
-    // Turn each moter a set distance and a velocity it should acheive
+    // Turn each motor a set distance and a velocity it should acheive
     //    leftMotorDistance:   encoder ticks
     //    velocityMm:          target velocity for that wheel in ticks  
     //                              per second
@@ -103,7 +103,7 @@ public  class DriveMecanumEpp extends LinearOpMode
         leftMotor2.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
         rightMotor2.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
         
-       // set the possition to which each wheel should run
+       // set the position to which each wheel should run
         leftMotor.setTargetPosition(leftMotorDistance);
         rightMotor.setTargetPosition(rightMotorDistance);
         leftMotor.setMode(DcMotor.RunMode.RUN_TO_POSITION);    
