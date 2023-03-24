@@ -4,7 +4,7 @@
 // Ed C. Epp
 // January, 11 2023
 // March, 19 2023    After software upgrade and testing tweaks
-// March, 24, 2024   Simplified powerUpMotors to use Ticks
+// March, 24, 2023   Simplified powerUpMotors to use Ticks
 //                   Add a couple of helper methods: 
 //                       GoForward and GoSideways
 //
