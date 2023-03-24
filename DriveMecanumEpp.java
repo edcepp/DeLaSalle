@@ -22,7 +22,7 @@ import com.qualcomm.robotcore.hardware.DcMotorEx;
 
 @Autonomous(name="Drive Mecanum Epp", group="Concept")
 //@Disabled
-// --------------------------- DriveInASquareMecanumSR class -----------------------------
+// --------------------------- DriveMecanumEpp class -----------------------------
 // ------------------------------------------------------------------------------
 public  class DriveMecanumEpp extends LinearOpMode
 {
