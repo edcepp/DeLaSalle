@@ -4,7 +4,7 @@
 //
 // Display RGB and HSV model colors read from a color sensor.
 //
-// Sophic added a color check using Hue
+// Sophia added a color check using Hue
 // March 25, 2023
 //
 // based on https://docs.revrobotics.com/color-sensor/application-examples
