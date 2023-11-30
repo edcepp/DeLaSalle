@@ -1,3 +1,6 @@
+// Ed C. Epp 11/29/2023
+// Proof-of-concept: add around line 150 to extract the x and y values of the 
+// recognized color - see line 119
 /*
 Copyright (c) 2023 FIRST
 
